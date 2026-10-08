@@ -1,3 +1,7 @@
+Nama: Nafisah Sekar Ayu
+NIM: H1D024087
+Shift: D
+
 # Aplikasi Eksplorasi Digimon 
 
 Aplikasi mobile berbasis Android modern untuk menjelajahi dan mempelajari berbagai jenis Digimon, atribut, level, dan tipe dari Dunia Digital. Proyek ini dikembangkan menggunakan **Kotlin**, **Jetpack Compose (Material Design 3)**, arsitektur **MVVM murni**, dan mengonsumsi data resmi dari **Digi-API (DAPI)**.
