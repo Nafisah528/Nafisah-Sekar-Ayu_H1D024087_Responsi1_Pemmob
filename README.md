@@ -1,10 +1,10 @@
-# Aplikasi Eksplorasi Digimon 🦖📱
+# Aplikasi Eksplorasi Digimon 
 
 Aplikasi mobile berbasis Android modern untuk menjelajahi dan mempelajari berbagai jenis Digimon, atribut, level, dan tipe dari Dunia Digital. Proyek ini dikembangkan menggunakan **Kotlin**, **Jetpack Compose (Material Design 3)**, arsitektur **MVVM murni**, dan mengonsumsi data resmi dari **Digi-API (DAPI)**.
 
 ---
 
-## 🛠️ Tech Stack & Library
+## Tech Stack & Library
 
 * **Bahasa:** Kotlin (Memanfaatkan *Data Class*, *Null Safety*, *Lambda*, *Collections*, dan *Coroutines*)
 * **UI Toolkit:** Jetpack Compose + Material Design 3 (**100% No XML Layout**)
@@ -17,7 +17,7 @@ Aplikasi mobile berbasis Android modern untuk menjelajahi dan mempelajari berbag
 
 ---
 
-## 🏛️ Arsitektur Aplikasi (MVVM)
+## Arsitektur Aplikasi (MVVM)
 
 Aplikasi dibangun dengan pemisahan tanggung jawab yang ketat (*Separation of Concerns*) mengikuti kaidah MVVM resmi Android:
 
@@ -60,7 +60,7 @@ Aplikasi dibangun dengan pemisahan tanggung jawab yang ketat (*Separation of Con
 
 ---
 
-## 📁 Struktur File & Folder
+## Struktur File & Folder
 
 ```
 com.example.digimonexplorer/
@@ -95,16 +95,16 @@ com.example.digimonexplorer/
 
 ---
 
-## 📱 Spesifikasi Layar & Fitur
+## Spesifikasi Layar & Fitur
 
 ### 1. Home Screen
 * Menampilkan daftar Digimon dalam format **LazyVerticalGrid** (2 kolom).
 * **Minimal Data pada Setiap Card:**
-  * ✅ Nama Digimon
-  * ✅ Level (e.g., Child, Adult, Ultimate)
-  * ✅ Attribute (e.g., Vaccine, Data, Virus)
-  * ✅ Type (e.g., Reptile, Beast)
-  * 🌟 Nilai tambah: Foto/Gambar Digimon dari API menggunakan library Coil.
+  * Nama Digimon
+  * Level (e.g., Child, Adult, Ultimate)
+  * Attribute (e.g., Vaccine, Data, Virus)
+  * Type (e.g., Reptile, Beast)
+  * Nilai tambah: Foto/Gambar Digimon dari API menggunakan library Coil.
   * Badge ID Digimon (`#1`, `#2`, dll).
 * **State Handling:**
   * **Loading:** `CircularProgressIndicator` dengan teks informatif saat data diunduh.
@@ -124,7 +124,7 @@ com.example.digimonexplorer/
 
 ---
 
-## 🌐 Digi-API (DAPI) Endpoints
+## Digi-API (DAPI) Endpoints
 
 * **Base URL:** `https://digi-api.com/api/v1/`
 * **Daftar Digimon:** `GET https://digi-api.com/api/v1/digimon?page=0&pageSize=20`
@@ -132,11 +132,12 @@ com.example.digimonexplorer/
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
 1. Clone repositori ini:
    ```bash
-   git clone <URL_REPOSITORY_ANDA>
+   git clone https://github.com/Nafisah528/Nafisah-Sekar-Ayu_H1D024087_Responsi1_Pemmob
+
    ```
 2. Buka folder proyek di **Android Studio** (Koala / Ladybug atau versi terbaru).
 3. Pastikan JDK yang digunakan adalah **JDK 17 atau JDK 21**.
@@ -146,9 +147,10 @@ com.example.digimonexplorer/
 ---
 
 ## 📸 Tangkapan Layar (Screenshots)
+<img width="738" height="1600" alt="light1" src="https://github.com/user-attachments/assets/f76e4ec3-5878-4628-955a-7451b0feff0f" />
+<img width="738" height="1600" alt="light2" src="https://github.com/user-attachments/assets/ffc155a8-02e7-4516-bb90-1697046fb4dd" />
+<img width="738" height="1600" alt="dark1" src="https://github.com/user-attachments/assets/1101b407-ccff-4946-a1c3-25fc3fc25d6e" />
+<img width="738" height="1600" alt="dark2" src="https://github.com/user-attachments/assets/fa2a02d2-7b11-4087-8baf-6255a37a7c8a" />
 
-| Home Screen (List) | Detail Screen (Detail) |
-|:------------------:|:----------------------:|
-| *(Tambahkan screenshot Home di sini)* | *(Tambahkan screenshot Detail di sini)* |
 
-*(Ambil screenshot saat menjalankan aplikasi pada emulator atau HP Anda dan letakkan pada folder `screenshots/`)*
+
